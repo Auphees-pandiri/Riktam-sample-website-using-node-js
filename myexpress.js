@@ -80,6 +80,16 @@ server.listen(PORT,()=> console.log('server running on port ${PORT}'));*/
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
+
+
+/*
+app.set('view engine','twig');
+app.set('views','./public/views')
+app.get('/',(req,res)=>{
+    res.render('index',{title:"hello",message:'hello riktam'});
+})
+*/
+
 app.use(express.static(path.join(__dirname,'public')));
 
 app.listen(port);

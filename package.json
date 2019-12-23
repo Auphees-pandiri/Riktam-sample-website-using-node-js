@@ -4,7 +4,7 @@
   "description": "simple express",
   "main": "myexpress.js",
   "scripts": {
-    "start":"node myexpress", 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "apheespandiri",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "express": "*",
     "mysql": "^2.17.1",
     "nodemon": "^1.19.2",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "twig": "^1.14.0"
   }
 }
